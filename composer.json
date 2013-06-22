@@ -5,6 +5,7 @@
     "keywords": ["colorize","design","css","symfony2"],
     "type": "symfony-bundle",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Fernando Hidalgo",
