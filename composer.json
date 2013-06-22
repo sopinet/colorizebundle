@@ -1,0 +1,23 @@
+{
+    "name": "sopinet/colorizebundle",
+    "version": "0.0.1",
+    "description": "Bundle for Symfony2 from Colorize library",
+    "keywords": ["colorize","design","css","symfony2"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Hidalgo",
+            "email": "fhidalgo@sopinet.com",
+            "homepage": "http://sopinet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "sopinet/colorize": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Sopinet\\ColorizeBundle": "" }
+    },
+    "target-dir": "Sopinet/ColorizeBundle"
+}
